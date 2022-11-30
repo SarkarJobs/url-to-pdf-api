@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "env-cmd node ./src -e js src/index.js",
-    "build": "env-cmd node ./src -e js src/index.js",
+    "build": "",
     "test": "mocha --timeout 10000 && npm run lint",
     "lint": "eslint ."
   },
